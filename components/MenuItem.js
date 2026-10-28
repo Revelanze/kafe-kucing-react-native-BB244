@@ -17,7 +17,7 @@ export default function MenuItem({ nama, harga, onTambahPesanan }) {
         <Text style={styles.harga}>Rp {harga.toLocaleString('id-ID')}</Text>
         <Text style={styles.qty}>Dipesan: {qty}</Text>
       </View>
-      <Button title="Tambah Pesanan" color="#8B5E3C" onPress={handlePress} />
+      <Button title="Tambah Pesanan" color="#e28945" onPress={handlePress} />
     </View>
   );
 }

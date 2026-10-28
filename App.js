@@ -4,9 +4,9 @@ import OrderSummary from './components/OrderSummary';
 import MenuItem from './components/MenuItem';
 
 const DAFTAR_MENU = [
-  { id: '1', nama: 'Catnip Latte', harga: 20000 },
+  { id: '1', nama: 'Catnip Latte', harga: 23000 },
   { id: '2', nama: 'Matcha Paw Cappucino', harga: 25000 },
-  { id: '3', nama: 'Sandwich Ikan Tuna', harga: 18000 },
+  { id: '3', nama: 'Sandwich Ikan Tuna', harga: 20000 },
 ];
 
 export default function App() {
@@ -21,8 +21,8 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>🐱 Kafe Kucing</Text>
-        <Text style={styles.headerSubtitle}>Pilih menu favoritmu</Text>
+        <Text style={styles.headerTitle}>Kafe Kucing</Text>
+        <Text style={styles.headerSubtitle}>Pilih Menu Favoritmu :D</Text>
       </View>
 
       <OrderSummary totalCount={totalPesanan} />
@@ -44,7 +44,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#FFF8F0' },
   header: {
-    backgroundColor: '#8B5E3C',
+    backgroundColor: '#e28945',
     paddingVertical: 24,
     paddingHorizontal: 16,
     alignItems: 'center',
